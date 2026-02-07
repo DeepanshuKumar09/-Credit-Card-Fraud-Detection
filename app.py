@@ -30,7 +30,7 @@ def main():
     st.header("1. Data Loading")
     @st.cache_data
     def load_data():
-        df = pd.read_csv("C:/Projects/Anomaly Detection/creditcard.csv")
+        df = pd.read_csv("Detection/creditcard.csv")
         return df
 
     df = load_data()
@@ -178,3 +178,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
