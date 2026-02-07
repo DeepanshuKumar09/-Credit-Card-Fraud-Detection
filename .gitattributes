@@ -1,0 +1,2 @@
+C:/Projects/Anomaly filter=lfs diff=lfs merge=lfs -text
+Detection/creditcard.csv filter=lfs diff=lfs merge=lfs -text
